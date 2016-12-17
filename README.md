@@ -7,6 +7,7 @@ Also make it executable otherwise it will not work.
 Do not forget to add this to a 'root' crontab.
 
 "* * * * * /etc/zabbix/scripts/zbx_redis_stats.py host_name -p 6379"
+the host_name need to be resolved at zbx agent side, and IP addr does not work
 
 
 # Redis Items:
